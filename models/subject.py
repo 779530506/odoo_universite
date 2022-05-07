@@ -2,8 +2,8 @@
 
 from odoo import models, fields, api
 
-class UniversiteDepartement(models.Model):
-    _name = 'universite.departement'
+class UniversiteSubject(models.Model):
+    _name = 'universite.subject'
 
     name = fields.Char()
     code = fields.Char()

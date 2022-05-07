@@ -21,6 +21,7 @@
       <field name="model">universite.student</field>
       <field name="arch" type="xml">
         <form>
+          <group>
           <field name="f_name"/>
           <field name="l_name"/>
           <field name="sexe"/>
@@ -29,6 +30,7 @@
           <field name="address"/>
           <field name="email"/>
           <!-- <field name="registration_date"/> -->
+        </group>
         </form>
       </field>
     </record>

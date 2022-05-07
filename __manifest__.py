@@ -26,6 +26,9 @@
     'data': [
         'security/ir.model.access.csv',
         'views/student_views.xml',
+        'views/departement_views.xml',
+        'views/classroom_views.xml',
+        'views/subject_views.xml',
         'views/prof_views.xml',
     ],
     # only loaded in demonstration mode
