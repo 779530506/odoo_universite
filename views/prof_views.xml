@@ -21,6 +21,7 @@
       <field name="model">universite.professor</field>
       <field name="arch" type="xml">
         <form>
+          <group>
           <field name="f_name"/>
           <field name="l_name"/>
           <field name="sexe"/>
@@ -28,7 +29,8 @@
           <field name="phone"/>
           <field name="address"/>
           <field name="email"/>
-          <!-- <field name="registration_date"/> -->
+          <field name="subject_id"/>
+        </group>
         </form>
       </field>
     </record>

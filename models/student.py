@@ -14,3 +14,5 @@ class UniversiteStudent(models.Model):
     #registration_date = fields.Datetime()
     email = fields.Char()
     phone = fields.Char()
+    # departement_id = fields.Many2one("universite.departement")
+    # classroom_id = fields.Many2one("universite.classroom")

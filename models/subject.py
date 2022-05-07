@@ -7,4 +7,7 @@ class UniversiteSubject(models.Model):
 
     name = fields.Char()
     code = fields.Char()
+    professor_ids = fields.One2many(comodel_name="universite.professor",inverse_name="subject_id")
+    # departement_id = fields.Many2one("universite.departement")
+    
    
