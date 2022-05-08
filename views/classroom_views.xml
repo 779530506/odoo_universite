@@ -8,6 +8,9 @@
         <tree>
           <field name="classroom_name"/>
           <field name="code"/>
+          <field name="student_ids"/>
+          <field name="departement_id"/>
+          <field name="professor_ids"/>
         </tree>
       </field>
     </record>
@@ -21,6 +24,9 @@
           <group>
           <field name="classroom_name"/>
           <field name="code"/>
+          <field name="student_ids"/>
+          <field name="departement_id"/>
+          <field name="professor_ids"/>
         </group>
         </form>
       </field>

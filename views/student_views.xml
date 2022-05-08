@@ -11,6 +11,8 @@
           <field name="sexe"/>
           <field name="cni"/>
           <field name="phone"/>
+          <field name="departement_id"/>
+          <field name="classroom_id"/>
         </tree>
       </field>
     </record>
@@ -29,6 +31,8 @@
           <field name="phone"/>
           <field name="address"/>
           <field name="email"/>
+          <field name="departement_id"/>
+          <field name="classroom_id"/>
           <!-- <field name="registration_date"/> -->
         </group>
         </form>

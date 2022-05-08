@@ -9,6 +9,7 @@
           <field name="name"/>
           <field name="code"/>
           <field name="professor_ids"/>
+          <field name="departement_id"/>
         </tree>
       </field>
     </record>
@@ -22,8 +23,8 @@
           <group>
           <field name="name"/>
           <field name="code"/>
-          <field name="code"/>
           <field name="professor_ids"/>
+          <field name="departement_id"/>
         </group>
         </form>
       </field>

@@ -16,9 +16,9 @@ class UniversiteProfessor(models.Model):
     email = fields.Char()
     phone = fields.Char()
     subject_id = fields.Many2one("universite.subject")
-    # departement_id = fields.Many2one("universite.departement")
-    # classroom_ids = fields.Many2many(comodel_name="universite.classroom",
-    #                                  relation="prof_class_rel",
-    #                                  column1="f_name",
-    #                                  column2="name",
-    #                                  )
+    departement_id = fields.Many2one("universite.departement")
+    classroom_ids = fields.Many2many(comodel_name="universite.classroom",
+                                     relation="prof_class_rel",
+                                     column1="f_name",
+                                     column2="classroom_name",
+                                     )
